@@ -1,0 +1,53 @@
+body {
+    background-color: #eee
+}
+
+.card {
+    background-color: #11999E;
+    padding: 15px;
+    border: none
+}
+
+.input-box {
+    position: relative
+}
+
+.input-box i {
+    position: absolute;
+    right: 13px;
+    top: 15px;
+    color: #ced4da
+}
+
+.form-control {
+    height: 50px;
+    background-color: #eeeeee69
+}
+
+.form-control:focus {
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee
+}
+
+.list {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center
+}
+
+.border-bottom {
+    border-bottom: 2px solid #eee
+}
+
+.list i {
+    width: 60px;
+    height: auto;
+    font-size: 19px;
+    color: #E84545
+}
+
+.list small {
+    color: #dedddd
+}

@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row bg-colorpers1">
+        <div class="col">
+            <img class="img-cote" src="https://www.madagascar-sur-mesure.com/app/uploads/sites/67/2020/04/panorama-sur-la-nationale-7-madagascar.jpeg" />
+        </div>
+        <div class="col">
+
+            <form class="card login p-5 shadow-sm" (submit)="onSubmit($event)">
+
+                <div class="alert alert-danger" style="font-size: 14px;" *ngIf="!isLoggedIn">
+                    Wrong username or password !
+                </div>
+
+                <h1>Login</h1>
+
+                <div class="mb-3">
+                    <label for="inputUsername" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="inputUsername" (keyup)="onKeyUpUsername($event)" [ngClass]="{'is-invalid': !usernameValid}" />
+                    <div class="invalid-feedback">Username obligatoire !</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" (keyup)="onKeyUpPassword($event)" [ngClass]="{'is-invalid': !passwordValid}" />
+                    <div class="invalid-feedback">Password required !</div>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-primary">Login</button>
+                <H2 class="text-center satisfyFont italic margin-text">Taskify</H2>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>

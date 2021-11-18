@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url(./assets/Satisfy.ttf);
+}
+
+.satisfyFont {
+    font-family: 'Satisfy';
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'metrich';
+    src: url(./assets/Metrisch-Light.ttf);
+}
+
+body {
+    background-color: #2B2E4A;
+}
+
+.metrich {
+    font-family: 'metrich';
+    font-size: 70px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+.colorrose {
+    background-color: #F07B3F;
+}
+
+.img-cote {
+    display: flex;
+    width: 700px;
+    height: auto;
+}
+
+.margin-text {
+    margin-top: 50px;
+}
+
+.bg-colorpers1 {
+    background-color: #EA5455;
+    padding: 15px;
+}
